@@ -9,22 +9,3 @@ img
   border-radius: 15%;
 }
 
-/**
-    Phones 
-    */
-@media only screen and (min-width: 375px) {
-  img {
-    height: max(300px, 15vh);
-    width: max(300px, 15vw);
-  }
-}
-
-/**
-    Desktops
-    */
-@media only screen and (min-width: 1440px) {
-  img {
-    height: max(250px, 15vh);
-    width: max(250px, 15vw);
-  }
-}

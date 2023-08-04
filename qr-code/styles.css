@@ -22,42 +22,19 @@ h1 {
 }
 
 .white-border {
+  max-width: 320px;
   background-color: hsl(0, 0%, 100%);
   border: 8px solid white;
   border-radius: 8px 8px;
 }
 
 .center-screen {
-  padding-top: 10%;
-  margin: 0 auto;
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
 }
 
-/**
-    Phones 
-    */
-@media only screen and (min-width: 375px) {
-  img {
-    height: max(300px, 30vh);
-    width: max(200px, 15vw);
-  }
-
-  .center-screen {
-    height: max(450px, 45vw);
-    width: max(250px, 35vw);
-  }
-}
-
-/**
-    Desktops
-    */
-@media only screen and (min-width: 1440px) {
-  img {
-    height: max(250px, 30vh);
-    width: max(150px, 15vw);
-  }
-
-  .center-screen {
-    height: 45vh;
-    width: 17vw;
-  }
+img {
+    max-width: 100%; 
 }
